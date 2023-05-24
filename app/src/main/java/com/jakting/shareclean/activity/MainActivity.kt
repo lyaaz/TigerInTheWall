@@ -42,10 +42,6 @@ class MainActivity : BaseActivity() {
             it.performHapticFeedback(HapticFeedbackConstants.KEYBOARD_TAP)
             startActivity(Intent(this, CleanManagerActivity::class.java))
         }
-        binding.contentMain.card3ManageIntent.cardManager.setOnClickListener {
-            it.performHapticFeedback(HapticFeedbackConstants.KEYBOARD_TAP)
-            startActivity(Intent(this, QuickCleanActivity::class.java))
-        }
 
         binding.contentMain.card4List.cardList1.setOnClickListener {
             it.performHapticFeedback(HapticFeedbackConstants.KEYBOARD_TAP)

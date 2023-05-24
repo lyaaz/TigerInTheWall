@@ -25,24 +25,6 @@
 
     </PreferenceCategory>
 
-    <PreferenceCategory app:title="@string/setting_network">
-
-        <rikka.preference.SimpleMenuPreference
-            app:defaultValue="0"
-            app:entries="@array/mirrors_list"
-            app:entryValues="@array/mirrors_list_values"
-            app:key="pref_mirrors"
-            app:summary="@string/setting_rules_mirror_summary"
-            app:title="@string/setting_rules_mirror" />
-        <EditTextPreference
-            app:key="pref_mirrors_custom"
-            app:isPreferenceVisible="false"
-            app:summary=""
-            app:title="@string/setting_rules_mirror_custom_repo" />
-
-
-    </PreferenceCategory>
-
     <PreferenceCategory app:title="@string/setting_troubleshooting">
 
         <Preference
